@@ -1,2 +1,5 @@
 # taitaja2024
-yikes
+
+made by me
+
+made with coding
