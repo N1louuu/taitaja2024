@@ -1,0 +1,32 @@
+
+.flex-direction-game {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+}
+
+.w-game {
+    background-color: #9900FF;
+    color: aliceblue;
+    padding: 10px;
+    height: 500px;
+}
+
+@media screen and (max-width: 850px) {
+    .w-game {
+        width: 100%;
+    }
+    .flex-direction-game {
+        flex-direction: column;
+    }
+  }
+  
+  @media screen and (min-width: 850px) {
+    .w-game {
+        width: calc(25% - 10px);
+    }
+    .flex-direction-game {
+        flex-direction: row;
+    }
+  }
